@@ -1,11 +1,19 @@
-import turtle
+from turtle import *
+import random
 
-x = turtle.Turtle()
-y = 5
-z = 50
-a = 360.0 / y
-for i in range(y):
-  x.forward(z)
-  x.right(a)
+colormode(255)  # allow RGB values from 0–255
 
-turtle.done()
+for i in range(random.randint(0,255)):
+    speed(0)
+    color = (random.randint(0,255),
+             random.randint(0,255),
+             random.randint(0,255))
+    pos = (random.randint(-255,255),
+             random.randint(-255,255))
+    size = random.randint(10,100)
+    penup()
+    goto(pos)
+    pendown()
+    dot(size, color)
+
+done()
