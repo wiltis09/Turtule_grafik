@@ -13,6 +13,8 @@ def cirkel_1(radie = 0):
     circle(radie)
     penup()
     goto(xcor(), ycor() + radie) 
+for i in range(0, 30):
+
 cirkel_1(100)
 
 done()

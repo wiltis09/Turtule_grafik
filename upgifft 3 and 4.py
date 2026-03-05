@@ -19,6 +19,12 @@ def drew_grid(box_size, ofset, net_size):
 drew_grid(20, 0, 80)
 
 def fillcoloer_on_click(x, y):
+    print(x, y, "pos")
+    if x < 0 and x > 80:
+        if y < 0 and y > 80:
+            return
+            print("bad")
+    
     box_x = int(x / 20) * 20
     box_y = int(y / 20) * 20
 
