@@ -1,16 +1,15 @@
 from turtle import *
-
+from math import *
 
 speed(0)
 offset = int(0)
 pencolor("red")
-pensize(3)
+pensize(1)
 fillcolor("red")
 
-for i in range(0,40):
-    circle(70)
-    right(offset)
 
+for x in range(0,1000, 10):
+ goto(x , sin(x))
 done()
 
 
