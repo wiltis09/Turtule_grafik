@@ -1,14 +1,13 @@
-
-
-
-def isfloat(string):
+def check_type(value):
     try:
-        if type(string) is str:
-            print("str")
-        elif type(string) is float:
-            print("float")
-        elif type(string) is int:
-            print("int")
-    except:
-        print("fel")
-isfloat(input("str: "))
+        int(value)
+        return "Integer"
+    except ValueError:
+        try:
+            float(value)
+            return "Float"
+        except ValueError:
+            return "String"
+
+user_input = input("Enter something: ")
+print(check_type(user_input))
