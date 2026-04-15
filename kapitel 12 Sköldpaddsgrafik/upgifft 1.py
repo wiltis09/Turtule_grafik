@@ -1,3 +1,6 @@
+
+# Gör ett program som ritar ett enkelt trafikmärke. Välj något eller några av nedanståend:
+
 from turtle import *
 speed(0)
 tracer(25)

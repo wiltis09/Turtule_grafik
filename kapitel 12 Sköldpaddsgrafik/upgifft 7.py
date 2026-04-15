@@ -1,3 +1,6 @@
+# Gör en funktion kvadrat(sida) som ritar en kvadrat med angiven sida. Låt första sidan
+# ritas i den aktuella riktning sköldpaddan har
+
 from turtle import *
 
 

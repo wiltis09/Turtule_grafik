@@ -1,3 +1,6 @@
+# Gör en funktion cirkel(radie) vilken ritar en cirkel med centrum där "sköldpaddan"
+# befinner sig och med angiven radie.
+
 from turtle import *
 
 
@@ -14,8 +17,7 @@ def cirkel_1(radie = 0):
     penup()
     goto(xcor(), ycor() + radie) 
 for i in range(0, 30):
-
-cirkel_1(100)
+    cirkel_1(100)
 
 done()
 

@@ -1,3 +1,9 @@
+# Använd onscreenclick() (se manualen för sköldpaddsgrafiken) och koppla den till en 
+# funktion som när en ruta i föregående uppgift klickas så fylls den med grön färg. Ledning:
+# runda av koordinaterna från musklicket på lämpligt sätt och rita om rutan med en fyrkant
+# som får grön fyllning. Alternativt kan du rita ett "X" i rutan. Möjlighter till
+# vidareutveckling: rita ett "O" vid högerklick.
+
 from turtle import *
 speed(0)
 setup(400,400, 0, 0)
