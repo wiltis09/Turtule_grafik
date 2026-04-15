@@ -1,3 +1,6 @@
+# Kapitel 12 – Sköldpaddsgrafik
+# Test av att skapa och starta sköldpaddor med olika egenskaper.
+
 import random
 import turtle
 

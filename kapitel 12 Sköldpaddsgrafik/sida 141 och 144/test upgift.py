@@ -1,3 +1,6 @@
+# Kapitel 12 – Sköldpaddsgrafik
+# Testprogram som ritar punkter utifrån sinusfunktionen.
+
 from turtle import *
 from math import *
 

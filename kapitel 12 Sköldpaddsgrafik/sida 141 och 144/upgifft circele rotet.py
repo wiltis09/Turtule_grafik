@@ -1,3 +1,6 @@
+# Kapitel 12 – Sköldpaddsgrafik
+# Ritar flera cirklar som roteras stegvis.
+
 from turtle import *
 
 

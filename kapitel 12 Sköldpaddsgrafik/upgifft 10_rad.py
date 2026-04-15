@@ -1,3 +1,6 @@
+# Kapitel 12 – Sköldpaddsgrafik
+# Ritar ett rutnät och fyller en ruta när användaren klickar i fönstret.
+
 from turtle import *
 
 

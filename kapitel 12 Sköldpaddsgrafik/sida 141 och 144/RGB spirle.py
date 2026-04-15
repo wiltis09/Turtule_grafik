@@ -1,3 +1,6 @@
+# Kapitel 12 – Sköldpaddsgrafik
+# Ritar en enkel spiral med turtle.
+
 from turtle import *
 import random
 

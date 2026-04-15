@@ -1,3 +1,6 @@
+# Kapitel 12 – Sköldpaddsgrafik
+# Ritar roterade kvadrater i ett mönster.
+
 from turtle import *
 import random
 
