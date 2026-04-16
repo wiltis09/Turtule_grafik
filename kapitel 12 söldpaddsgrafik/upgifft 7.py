@@ -15,7 +15,7 @@ def kvadrat(sida = 0):
 kvadrat(200)
 
 
-   
+
 
 done()
 

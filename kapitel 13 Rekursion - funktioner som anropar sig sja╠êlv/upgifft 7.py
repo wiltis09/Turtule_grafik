@@ -4,13 +4,6 @@
 # Man kan tänka sig denna triangel uppbyggd av tre andra, och liksom "skär ut" en triangel i 
 # mitten som alltså inte ritas när de andra ritas:
 
-
-
-
-
-
-
-
 from turtle import *
 
 
